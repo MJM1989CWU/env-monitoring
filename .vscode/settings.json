@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "env",
+            "database": "${workspaceFolder:env-monitoring}/env_monitor.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "env2",
+            "database": "${workspaceFolder:env-monitoring}/env_monitor.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
